@@ -1,0 +1,175 @@
+
+body{
+
+    font-family: 'Gentium Book Plus', serif;
+
+    font-family: 'Great Vibes', cursive;
+
+    font-family: 'Lobster', cursive;
+
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.main-section{
+margin: 40px 100px;
+
+
+}
+
+
+.container{
+background-color: black;
+height: 500px;
+border-radius: 40px;
+padding: 10px 25px;
+margin-bottom: 90px;
+
+
+}
+
+h1{
+    font-size: 3em;
+}
+.top-header{
+    display: flex;
+    
+
+    color: white;
+}
+.top-info{
+    padding: 0 15px;
+    width: 50%;
+
+}
+.top-image{
+   
+    width: 50%;
+}
+
+.top-image img{
+   
+    width: 100%;
+}
+.button{
+    text-decoration: none;
+    background-color: rgb(233, 23, 23);
+    padding: 7px;
+    border-radius: 5px;
+    color: white;
+}
+ 
+.navbar{
+    display:flex;
+  flex-direction: row;
+  padding-bottom: 40px;
+  background-color: white;
+}
+.nav-menu{
+   
+    
+}
+
+.nav{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    border-radius: 5px;
+    width: 220px;
+    padding: 5px;
+    height: 200px;
+    margin-right:10px ;
+}
+
+
+
+
+.nav a{
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    font-size: 1em;
+    border-radius: 5px;
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+} 
+  
+
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 10px;
+}
+
+.blog{
+    border: 1px solid green;
+    border-radius: 5px;
+}
+
+
+.blog-image img{
+   width: 100%;
+   height:300px;
+}
+
+.blog-desc{
+padding: 15px;
+
+}
+
+
+
+.update{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.footer-section{
+padding: 45px;
+background-color: black;
+color: aliceblue;
+text-align: center;
+
+
+
+}
+
+.footer-menu{
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: center;
+    padding-top: 10px;
+
+
+
+}
+.footer-menu a{
+    text-decoration: none;
+    color: aliceblue;
+    margin: 7px;
+    padding: 5px;
+    background-color: blue;  
+    border-radius: 5px;
+
+   
+
+
+
+}
+
+
+.footer-menu a:hover{
+    background-color: rgb(173, 168, 162);
+
+   
+
+
+
+}
+
